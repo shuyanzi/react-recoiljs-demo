@@ -13,3 +13,7 @@ export const charCountState = selector({
   },
 });
 
+export const todoListState = atom({
+  key: 'todoListState',
+  default: [],
+});
